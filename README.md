@@ -1,8 +1,8 @@
-调用地址:https://zhongerjunze.github.io/acgurl.php
+调用地址:https://zhongerjunze.github.io/acgurl/acgurl.php
 
 调用参数:return = json / jsonpro / url / urlpro / img
 
-举例:https://zhongerjunze.github.io/acgurl.php?return=json
+举例:https://zhongerjunze.github.io/acgurl/acgurl.php?return=json
 
 json：返回一条标准json数据(图片地址)
 
