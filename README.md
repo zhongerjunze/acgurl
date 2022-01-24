@@ -1,4 +1,4 @@
-调用地址:http://xxx.com/giturl.php
+调用地址:https://zhongerjunze.github.io/giturl.php
 调用参数:return = json / jsonpro / url / urlpro / img
 json：返回一条标准json数据(图片地址)
 jsonpro：返回十条标准json数据(图片地址)
