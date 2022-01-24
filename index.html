@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="author" content="Xlch">
+		<title>随机二次元图片API</title>
+  		<link rel="shortcut icon" href="./favicon.ico">
+		<meta name="keywords" content="随机二次元图片API,随机图片API,随机图片接口,随机图片,随机图片api源码,随机图片链接,二次元图片,高清图片,二次元API,动漫图片API,图片API">
+		<meta name="description" content="随机二次元图片API,随机动漫壁纸,24小时稳定运行，手机电脑平板一站通用，超多图片类型不定期更新，快来一起使用吧！">
+		<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="main.css?ver=1.0">
+		<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+        <script src="//lib.baomitu.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<p class="title title2">二次元图片API</p>
+		</div>
+		<div class="container">
+			<div class="well">
+				<p>目前系统共收录 200+ 张图片 API最后更新时间:2020-07-16</p>
+			    <p>壁纸图床-图片默认均为https，高速全球CDN访问</p>
+			    <p>图片API基本调用格式：</p>
+				<pre>http://api.aabbaabc.tk/acgurl.php</pre>
+				<p>参数：</p>
+				<pre>return=json/jsonpro/img(直接显示图片)/url(直接显示URL)/urlpro</pre>
+				<p>二次元壁纸API-普通JSON调用格式</p>
+                <pre>https://api.aabbaabc.tk/acgurl.php?return=json</pre>
+				<p>二次元壁纸API-普通JSON数据</p>
+				<pre style="text-shadow: initial;"><span>{<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="json_key">"server"</span>:<span class="json_string">"QCAPI-Github-Wallpaper"</span><span class="json_note"> #当前API名称</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="json_key">"code"</span>:<span class="json_string">"200"</span><span class="json_note"> #状态码</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="json_key">"type"</span>:<span class="json_string">"image"</span><span class="json_note"> #当前文件类型</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="json_key">"acgurl"</span>:<span class="json_string">"https:\/\/img.qcair.cc\/api\/img?id=316"</span><span class="json_note"> #图片地址</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="json_key">"width"</span>:<span class="json_string">"2048"</span><span class="json_note"> #图片宽</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="json_key">"height"</span>:<span class="json_string">"1165"</span><span class="json_note"> #图片高</span><br>}</span></pre>
+			</div>
+		</div>
+		<div class="bottom">
+        	<p> Copyright &copy; 2019-2020 <a target="_black" title="博客""博客</a> V6.0</p>
+        	<!-- 备案号:<a href="http://www.miibeian.gov.cn" target="_blank">xxICP备</a>-->
+        	<!-- 统计代码 -->
+		</div>
+			<!-- 读取API统计信息 -->
+	<script language="javascript">
+$(document).ready(function() {
+    $.ajax({
+        url: "./Main/count.txt",
+        success: function(result) {
+            $("#ApiResult").html(result);
+        }
+    });
+});
+</script>
+	</body>
+</html>
